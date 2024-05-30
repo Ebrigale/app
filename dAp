@@ -15,8 +15,3 @@ const TaskList = ({ tasks }) => {
           </View>
         )}
       />
-    </View>
-  );
-};
-
-export default TaskList;
