@@ -7,11 +7,6 @@ const TaskList = ({ tasks }) => {
     <View>
       <Text>Task List</Text>
       <FlatList
-        data={tasks}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
-          <View>
-            <Text>{item.title}</Text>
-          </View>
+
         )}
       />
